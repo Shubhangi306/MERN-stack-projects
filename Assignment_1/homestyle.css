@@ -1,0 +1,251 @@
+body{
+    background-color:rgb(51, 46, 46);
+}
+
+/*HEADER SECTION*/
+#page_tittle{
+
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    height: 850px;
+    width: 98.5%;
+    background-repeat: no-repeat;
+    color: rgb(51, 48, 10);
+    background-image: url(./home_img.jpg);
+    position: relative;
+}
+
+/*NAVIGATION BAR*/
+#navbar{
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    opacity: 0.8;
+}
+#navbar li{
+    float:left;
+    border-right: 1px solid #bbb;
+}
+#navbar li:nth-child(10){
+    border-right: none;
+}
+#navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+span{
+    white-space: pre-wrap;
+}
+#navbar li :hover{
+    background-color: grey;
+}
+
+/*.active {
+   background-color: peru;
+}*/
+
+h1 a{
+    font-size: 70px;
+    color: blanchedalmond;
+    text-shadow: 2px 2px #bbb;
+    text-decoration: none;
+}
+ h1 a:hover {
+    color:peru;
+
+}
+
+h3{
+    font-size: 60px;
+    color: blanchedalmond;
+    position: absolute;
+    bottom:350px;
+    left:650px;
+}
+h5{
+    font-size: 30px;
+    color: rgb(245, 161, 78);
+    position: absolute;
+    bottom:300px;
+    left:650px;
+
+}
+
+/*MAIN CONTENT*/
+main{
+    color:rgb(245, 161, 78);
+}
+
+/*EDUCATION PANEL*/
+.education_content{
+    display:inline-block;
+}
+.education{
+    color: white;
+    text-align: center;
+    margin:13px;
+    padding: 10px;
+    border: 2px solid black;
+    height:180px;
+    width: 450px;
+    background-color: #111;
+    border-radius: 10px;
+    float: left;
+}
+.education h4{
+    color:rgb(245, 161, 78);
+    font-weight: bolder;
+    font-size: 30px;
+    margin:0px;
+    float: left;
+}
+.education ul{
+
+    list-style-type: none;
+}
+.education li{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.education p{
+  text-align: center;
+  color: peru;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.adjust{
+    position: relative;
+    bottom: -40px;
+}
+.education:hover{
+    border-bottom: 5px solid rgb(245, 161, 78);
+    border-right:5px solid rgb(245, 161, 78); 
+    font-size: 20px;
+    font-style: italic;
+}
+
+ /*LANGUAGE SECTION*/
+.language{
+    color: rgb(245, 161, 78);
+}
+
+/*PROJECTS SECTION*/
+.projects{
+    color:rgb(245, 161, 78);
+}
+/*REPOSITORY LINK*/
+.repo{
+    color: peru;
+}
+
+/*CONTAINER FOR EACH SECTION*/
+.details{
+    background-color:rgb(51, 46, 46);
+}
+/*SECTION HEADING*/
+.details h2{
+    text-align: center;
+    background-color:black;
+    height: 60px;
+    font-size: 40px;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+/*ABOUT ME SECTION*/
+.details .content_for_personal_summary {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: 95%;
+    text-align: left;
+    display: inline-block;
+}
+.content_for_personal_summary span {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+    position: relative;
+    bottom: -20px;
+    color: rgb(245, 161, 78);
+}
+.content_for_personal_summary p{
+    float:right;
+    font-style: italic;
+    width: 900px;
+    clear: both;
+}
+
+/*HOBBIES SECTION*/
+.hobby  {
+    color: white;
+    text-align: center;
+    display:inline-block;
+    margin: 13px;
+    padding: 10px;
+    border: 2px solid black;
+    height: auto;
+    width: 320px;
+    background-color: #111;
+    border-radius: 10px;
+}
+.hobby h4{
+    font-size: 25px;
+
+}
+.content_heading :hover{
+color: rgb(133, 84, 35);
+font-style: oblique;
+}
+
+.content :hover {
+    border-bottom: 5px solid rgb(245, 161, 78);
+    border-right:5px solid rgb(245, 161, 78); 
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hobby :hover{
+    border-bottom:none;
+    border-right: none;
+}
+
+/*FOOTER*/
+footer {
+    height: 300px;
+    color: antiquewhite;
+    width: 105%;
+}
+.contact{
+    color: white;
+    text-align: center;
+    display:inline-block;
+    margin: 13px;
+    padding: 10px;
+    height: auto;
+    width: 320px;
+    border-radius: 10px;
+    margin: 65px;
+}
+.contact :nth-child(1){
+color: rgb(245, 161, 78);
+}
+.second{
+ border: 0;
+ height: 0;
+ border-top: 1px solid rgba(0,0,0,1);
+ border-bottom: 1px solid rgba(255,255,255,0.3);  
+}
+.click:hover{
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+

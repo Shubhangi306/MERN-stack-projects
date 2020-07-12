@@ -1,0 +1,45 @@
+body{background-repeat: no-repeat;
+background-size:100% ;
+}
+
+#form_ {
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.8;
+    width: 500px;
+    height: 240px;
+    position: relative;
+    top: 200px;
+    left: 500px;
+
+
+}
+#form_ h2 {
+    color: white;
+    background-color:rgb(211, 133, 55);
+    text-shadow: 2px 2px black;
+    text-indent: 20px;
+    height: 30px;
+    margin-left:  35px;
+    margin-right: 35px;
+}
+#form_ label{
+    color: white;
+}
+#formcontent {
+    margin: 20px;
+    text-align: center;
+}
+.inputs{
+    height: 20px;
+    width: 350px;
+}
+
+.formbutton{
+    width: 430px;
+    color:white;
+    margin-bottom: 10px;
+    height: 26px;
+    background-color:rgb(211, 133, 55);
+    
+}
