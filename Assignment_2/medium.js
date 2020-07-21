@@ -29,7 +29,7 @@ console.log("word searches are super fun , (s) ::",specialReverse('word searches
 console.log("first man to walk on moon , (m) ::",specialReverse('first man to walk on moon','m'));
 console.log("peter piper picked pickled peppers , (p) ::", specialReverse('peter piper picked pickled peppers','p'));
 console.log("the crow was thirsty at three thirty , (t) ::",specialReverse('the crow was thirsty at three thirty','t'));
-console.log("We wonder whether W-words would want watching when wordplay was warranted , (w) \n::",specialReverse('We wonder whether W-words would want watching when wordplay was warranted','w'));
+console.log("we wonder whether w-words would want watching when wordplay was warranted , (w) \n::",specialReverse('we wonder whether w-words would want watching when wordplay was warranted','w'));
 
 console.log("\n");
 
