@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+      span{
+        color: red;
+        font-size: small;
+      }
+    </style>
+    <title>Form and Events</title>
+</head>
+<body>
+        <div class="container mt-2">
+                <h1>Registration Form</h1>
+                <form id="registrationForm" name="myform" onsubmit="onSubmit()">
+                  <div class="form-group row">
+                    <div class="col" >
+                      <label id="labelname1"></label>
+                      <span id="error1"></span>
+                      <input id="username" type="text" placeholder ="Enter your username"  class="form-control"  onblur="UsernameEmpty()" onclick="UsernameNotEmpty()" onkeypress="checkform();UsernameNotEmpty()" onkeyup="checkform()"  >
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col">
+                      <label id="labelname2"></label>
+                      <span id="error2"></span>
+                      <input id="password" type="password"  placeholder ="Enter password" class="form-control"   onclick="PasswordNotEmpty();UsernameEmpty()"  onblur=" PwdConPwdMatch();PasswordEmpty()"  oninput="PasswordEmpty()" onkeyup="UsernameEmpty();PasswordEmpty();checkform()" onkeypress="checkform();PasswordEmpty()">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col">
+                      <label id="labelname3"></label>
+                      <span id="error3"></span>
+                      <input id="confirmPassword" type="password" placeholder ="Re-enter password" class="form-control" onclick="ConPwdNotEmpty();PasswordEmpty();UsernameEmpty()" onblur="PwdConPwdMatch();" onkeyup="checkform();PwdConPwdMatch()" onkeypress="PwdConPwdMatch()">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                        <button id="registerButton" class="btn btn-primary btn-block"  onmouseover="UsernameEmpty();PasswordEmpty()" onmousemove="PwdConPwdMatch()">
+                          Register
+                      </button>
+                      <p id="Msg" style="font-size: x-large; text-align: center; margin-top: 30px;"></p>
+                    </div>
+                  </div>
+               </form>
+              </div>
+        
+    <script type="text/javascript" src="./ExerciseEvents.js"></script>
+</body>
+</html>
