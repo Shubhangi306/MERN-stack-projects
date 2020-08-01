@@ -46,13 +46,14 @@ p.inside-task{
     
 }
 
-.delete-button{
+button.delete-button{
     border-radius: 17px;
     height:40px;
     margin:3px 0px;
     background-color:lightskyblue;
     border: 2px solid dodgerblue;
     width: 60px;
+    outline: none;
 }
 
 
@@ -64,6 +65,7 @@ button.cross-button{
     background-color:lightskyblue;
     border: 2px solid dodgerblue; 
     width: 60px;
+    outline: none;
 }
 
 p.empty-list{
@@ -113,6 +115,7 @@ input.add-button{
     background-color:rgb(240, 132, 177);
     border: 2px solid rgb(224, 18, 128); 
     width: 60px;
+    outline: none;
 }
 
 label.item-label{
