@@ -106,6 +106,7 @@ input.todo-task{
     width: 60%;
     margin: 0px 7px;
     border-radius: 18px;
+    outline: none;
     border:2px solid rgb(172, 60, 120);
 }
 
