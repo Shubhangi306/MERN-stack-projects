@@ -1,0 +1,130 @@
+body{
+background-color: rgb(235, 235, 240);
+}
+h1.app-head{
+    margin:40px 25px 0px;
+    background-color: rgb(151, 74, 228);
+    position: absolute;
+    bottom:5px;
+    font-size: 40px;
+    color: rgb(255, 144, 34);
+    font-weight: 2000px;
+    text-shadow:2px 2px rgb(92, 60, 29);
+}
+
+nav.nav-bar{
+    background-color: rgb(151, 74, 228);
+    margin-top: 0px;
+    margin-bottom: 40px;
+    height: 80px;
+    position: relative;
+    border-bottom:2px solid rebeccapurple;
+}
+
+/* ToDo Items*/
+.item{
+    margin:0px 20px ;
+    list-style-type: none;
+    
+}
+
+.task{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+p.inside-task{
+    width: 70%;
+    padding:10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    border: 2px solid skyblue;
+    background-color: powderblue;
+    
+}
+
+.delete-button{
+    border-radius: 17px;
+    height:40px;
+    margin:3px 0px;
+    background-color:lightskyblue;
+    border: 2px solid dodgerblue;
+    width: 60px;
+}
+
+
+
+button.cross-button{
+    border-radius: 17px;
+    height:40px;
+    margin:3px 3px;
+    background-color:lightskyblue;
+    border: 2px solid dodgerblue; 
+    width: 60px;
+}
+
+p.empty-list{
+    color: rgb(70, 146, 223);
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 100px;
+}
+/*form*/
+
+form.form-style{
+    margin:40px ;
+    background-color:rgb(241, 177, 198);
+    padding: 5px;
+    border: 2px solid rgb(231, 92, 138);
+    border-radius: 30px;
+    width: 90%;
+    display: flex;
+    justify-content:  center;
+    height:40px;
+
+}
+.task span{
+    padding: 10px 0px;
+    color: rgb(22, 117, 212);
+    font-weight: 700;
+}
+
+div.for-form{
+    display: flex;
+    justify-content:  center;
+
+}
+
+input.todo-task{
+    height: 87%;
+    width: 60%;
+    margin: 0px 7px;
+    border-radius: 18px;
+    border:2px solid rgb(172, 60, 120);
+}
+
+input.add-button{
+    border-radius: 25px;
+    height:40px;
+    background-color:rgb(240, 132, 177);
+    border: 2px solid rgb(224, 18, 128); 
+    width: 60px;
+}
+
+label.item-label{
+    font-size: 18px;
+    color:  rgb(87, 32, 61);
+    font-weight: bold;
+    margin-left:5px ;
+    padding: 7px 0px;
+    float: left;
+}
+
+
+
+
+
