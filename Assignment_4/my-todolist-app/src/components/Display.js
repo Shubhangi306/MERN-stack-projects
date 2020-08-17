@@ -15,7 +15,7 @@ const Display =({todoItems,deleteItem,crossItem})=>{
             </div>
         )
 
-    }): <p className='empty-list'>Nothing to do!!</p>
+    }): <p className='empty-list'>Nothing to do!!!</p>
     return(
     <div className='display-item'>
         {itemList}

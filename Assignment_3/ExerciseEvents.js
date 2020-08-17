@@ -71,11 +71,7 @@ function ConPwdNotEmpty(){
   Add a further validation to check if the user input in the password and confirm password inputs match.  Show an error message if they do not.
 */
 function PwdConPwdMatch(){
-  if(document.getElementById('password').value!==""){
-    if ((document.getElementById('confirmPassword').value)===""){
-      document.getElementById('error3').innerHTML ="This field is empty";
-      document.getElementById('confirmPassword').style.borderColor='red';
-  }}
+  
 
   if(document.getElementById('confirmPassword').value!==""){
     if ((document.getElementById('password').value)!==(document.getElementById('confirmPassword').value)){
@@ -90,6 +86,14 @@ function PwdConPwdMatch(){
         }
 }
  
+}
+
+function ConPwdEmpty(){
+  if(document.getElementById('password').value!==""){
+    if ((document.getElementById('confirmPassword').value)===""){
+      document.getElementById('error3').innerHTML ="This field is empty";
+      document.getElementById('confirmPassword').style.borderColor='red';
+  }}
 }
 
 /*
