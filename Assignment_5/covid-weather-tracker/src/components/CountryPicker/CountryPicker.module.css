@@ -1,0 +1,11 @@
+.country{
+    width: 50px;
+    padding: 5px;
+    margin: 10px;
+    background-color:rgba(163, 194, 235, 0.4);
+    border-radius: 16px;
+    border:1.5px solid rgb(67, 147, 238);
+    color: whitesmoke;
+    font-weight: 500;
+}
+

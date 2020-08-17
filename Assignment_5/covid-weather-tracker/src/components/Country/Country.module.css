@@ -1,0 +1,18 @@
+.bbar{
+    width:80%;
+    margin-left: 130px;
+}
+
+.heading{
+    color:rgb(53, 158, 207);
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+}
+.stats{
+    color: rgb(35, 119, 158);
+    font-weight: 700;
+    font-style: oblique;
+    margin-bottom: 30px;
+    text-align: center;   
+}
