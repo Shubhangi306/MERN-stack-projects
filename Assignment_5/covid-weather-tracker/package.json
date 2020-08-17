@@ -2,7 +2,6 @@
   "name": "covid-weather-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://Shubhangi306.github.io/Assignment_5_deployed",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -25,8 +24,8 @@
     "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
