@@ -3,7 +3,7 @@ import Cards from '../../components/Cards/Cards';
 import styles from './Country.module.css';
 import {Bar} from 'react-chartjs-2';
 import axios from 'axios';
-
+import Navbar from '../Navbar';
 class Country extends Component {
     state = {
         country:{},
@@ -45,10 +45,11 @@ class Country extends Component {
 
         return(
             <div className={styles.container}>
-                <h3 className={styles.heading}>{country.Country}</h3>
-            <Cards data={this.state}></Cards>
-            <h4 className={styles.stats}>Statistics</h4>
-            <div className={styles.bbar} >{barChar}</div>
+                <Navbar></Navbar>
+                <h3 className={styles.heading}  style={{marginTop:'25px'}}>{country.Country}</h3>
+                <Cards data={this.state}></Cards>
+                <h4 className={styles.stats}>Statistics</h4>
+                <div className={styles.bbar} >{barChar}</div>
                 
             </div>
         );
