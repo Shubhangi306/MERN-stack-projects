@@ -1,0 +1,67 @@
+@import "../../sass/styles";
+
+// ############ List Post #####################
+
+.grid-container {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  
+}
+
+.form-s{
+   border: 2px solid rgb(156, 156, 154);
+   border-radius: 10px;
+   color: white;
+}
+
+.postview{
+   border: 2px solid rgb(156, 156, 154);
+   border-radius: 10px;
+   color: white;
+   padding: 30px;
+}
+
+
+
+a:link {
+   text-decoration: none !important;
+}
+
+.deckStyle {
+   // @include box-shadow($cardShadowInitial);
+   width: 70vw;
+   margin:20px 0px;
+   height:400px;
+}
+
+.deckStyle:hover {
+   @include transition(0.4s);
+   @include box-shadow($cardShadowHover);
+}
+
+// ######### Post ############
+
+.postCover {
+   background:white;
+   color: black;
+   overflow: hidden;
+}
+
+// ############# ViewPost ##############
+
+.viewPost {
+   overflow-wrap: break-word;
+}
+
+.postTitle {
+   color: $primaryColor;
+}
+
+.footerStyle {
+   color: $subtitleColor;
+}
+
+// #################################
